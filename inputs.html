@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input HTML</title>
+</head>
+
+<body>
+    <h1>Your Information</h1>
+
+    <hr>
+
+    <form action="mailto:srinnaravuoch@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="">Full Name</label></td>
+                <td>: <input type="text" name="fullname"></td>
+            </tr>
+            <tr>
+                <td><label for="">Phone Number</label></td>
+                <td>: <input type="number" name="phonenumber"></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td>: <input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td>: <input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="">Document</label></td>
+                <td>: <input type="file" name="File"></td>
+            </tr>
+            <tr>
+                <td><label for="">Date of register</label></td>
+                <td>: <input type="date" name="register"></td>
+            </tr>
+            <tr>
+                <td><label for="">Color</label></td>
+                <td>: <input type="color" name="color"></td>
+            </tr>
+            <tr>
+                <td><label for="">Web development level</label></td>
+                <td>: <input type="range" min="0" max="100" name="level"></td>
+            </tr>
+            <tr>
+                <td><label for="">Type of Laptop</label></td>
+                <td>: 
+                    <select name="Laptop" id="">
+                        <option value="MacBook">MacBook</option>
+                        <option value="MSI">MSI</option>
+                        <option value="ASUS TUf Gaming">ASUS TUf Gaming</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Link's URL</label></td>
+                <td>: <input type="url" name="url"></td>
+            </tr>
+            <tr>
+                <td><label for="">Chooes your skill course</label></td>
+                <td>: <input type="checkbox" value="WebDevelopment" name="skills">Web development</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="checkbox" value="AppDevelopment" name="skills">App development</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="checkbox" value="PythonDevelopment" name="skils">Python development</td>
+            </tr>
+            <tr>
+                <td><label for="">Do you agree our term?</label></td>
+                <td>: 
+                    <input type="radio" name="term" id="term-yes">
+                    <label for="term-yes">Yes</label>
+
+                    <input type="radio" name="term" id="term-no">
+                    <label for="term-no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><textarea name="Question" id="" cols="21" rows="5">Any question?</textarea></td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <input type="button" value="To verify your account!" onclick="alert('Your account is verify already!')"> <br> <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <p><a href="index.html">Back Home!</a></p>
+
+</body>
+
+
+</html>
